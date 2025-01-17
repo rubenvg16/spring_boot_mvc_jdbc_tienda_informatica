@@ -21,7 +21,7 @@ public class FabricanteDAOImpl  implements FabricanteDAO{
 	@Override	
 	public synchronized void create(Fabricante fabricante) {
 		
-		jdbcTemplate.update("INSERT INTO fabricante (nombre) VALUES (?)",fabricante.getNombre());
+		jdbcTemplate.update("INSERT INTO fabricante (nombre) VALUES (?)", fabricante.getNombre());
 		
 	}
 

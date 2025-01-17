@@ -1,6 +1,6 @@
 package org.iesvegademijas.tienda_informatica.modelo;
 
-public class Pedido {
+public class Producto {
 
     private int codigo;
     private String nombre;
@@ -8,7 +8,7 @@ public class Pedido {
     private int id_fabricante;
 
 
-    public Pedido(int codigo, String nombre, double precio, int id_fabricante) {
+    public Producto(int codigo, String nombre, double precio, int id_fabricante) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.precio = precio;

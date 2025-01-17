@@ -34,7 +34,7 @@ public class FabricanteController {
 		
 	}
 	
-	@GetMapping("/fabricantes/{id}")
+	@GetMapping("/fabricantes/{ }")
 	public String detalle(Model model, @PathVariable Integer id ) {
 		
 		Fabricante fabricante = fabricanteService.one(id);
